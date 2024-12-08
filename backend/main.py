@@ -6,6 +6,13 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 
 
 
+# Import Paths
+from paths import (
+    path_fish
+)
+
+
+
 # Start the App
 app = FastAPI()
 
@@ -37,7 +44,14 @@ async def read_home():
 
 
 
+# Add Paths
+app.include_router(path_fish.router)
+
+
+
 # Run the App
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
