@@ -6,7 +6,7 @@ from models.Fish import Fish
 # File Path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-data_fish_north = {
+data_fish_north = [
     Fish(id=1, name="Anchovy", price=200, location="Sea", shadow_size="2", month_start=1, month_end=12, time_start=400, time_end=2100),
     Fish(id=2, name="Angelfish", price=3000, location="River", shadow_size="2", month_start=5, month_end=10, time_start=1600, time_end=900),
     Fish(id=3, name="Arapaima", price=10000, location="River", shadow_size="6", month_start=6, month_end=9, time_start=1600, time_end=900),
@@ -92,4 +92,4 @@ data_fish_north = {
     Fish(id=83, name="Whale Shark", price=13000, location="Sea", shadow_size="6 (Fin)", month_start=6, month_end=9, time_start=0, time_end=2359),
     Fish(id=84, name="Yellow Perch", price=300, location="River", shadow_size="3", month_start=10, month_end=3, time_start=0, time_end=2359),
     Fish(id=85, name="Zebra Turkeyfish", price=500, location="Sea", shadow_size="3", month_start=4, month_end=11, time_start=0, time_end=2359),
-}
+]
