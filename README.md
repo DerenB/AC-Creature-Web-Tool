@@ -2,4 +2,7 @@
 
 - Using FastAPI &amp; React to display currently available creatures
 
-# Testing
+# Technologies
+
+- PyCharm
+- Postman
