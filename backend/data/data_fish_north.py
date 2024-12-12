@@ -23,8 +23,8 @@ data_fish_north = [
     Fish(id=14, name="Butterfly Fish", price=1000, location="Sea", shadow_size="2", month_start=4, month_end=9, time_start=0, time_end=2359),
     Fish(id=15, name="Carp", price=300, location="Pond", shadow_size="4", month_start=1, month_end=12, time_start=0, time_end=2359),
     Fish(id=16, name="Catfish", price=800, location="Pond", shadow_size="4", month_start=5, month_end=10, time_start=1600, time_end=900),
-    Fish(id=17, name="Char 1", price=3800, location="River (Clifftop) Pond", shadow_size="3", month_start=3, month_end=6, time_start=1600, time_end=900),
-    Fish(id=18, name="Char 2", price=3800, location="River (Clifftop) Pond", shadow_size="3", month_start=9, month_end=11, time_start=1600, time_end=900),
+    Fish(id=17, name="Char", price=3800, location="River (Clifftop) Pond", shadow_size="3", month_start=3, month_end=6, time_start=1600, time_end=900),
+    Fish(id=18, name="Char", price=3800, location="River (Clifftop) Pond", shadow_size="3", month_start=9, month_end=11, time_start=1600, time_end=900),
     Fish(id=19, name="Cherry Salmon", price=1000, location="River (Clifftop)", shadow_size="3", month_start=3, month_end=6, time_start=1600, time_end=900),
     Fish(id=20, name="Cherry Salmon", price=1000, location="River (Clifftop)", shadow_size="3", month_start=9, month_end=11, time_start=1600, time_end=900),
     Fish(id=21, name="Clown Fish", price=650, location="Sea", shadow_size="1", month_start=4, month_end=9, time_start=0, time_end=2359),
@@ -91,5 +91,5 @@ data_fish_north = [
     Fish(id=82, name="Tuna", price=7000, location="Pier", shadow_size="6", month_start=11, month_end=4, time_start=0, time_end=2359),
     Fish(id=83, name="Whale Shark", price=13000, location="Sea", shadow_size="6 (Fin)", month_start=6, month_end=9, time_start=0, time_end=2359),
     Fish(id=84, name="Yellow Perch", price=300, location="River", shadow_size="3", month_start=10, month_end=3, time_start=0, time_end=2359),
-    Fish(id=85, name="Zebra Turkeyfish", price=500, location="Sea", shadow_size="3", month_start=4, month_end=11, time_start=0, time_end=2359),
+    Fish(id=85, name="Zebra Turkeyfish", price=500, location="Sea", shadow_size="3", month_start=4, month_end=11, time_start=0, time_end=2359)
 ]
