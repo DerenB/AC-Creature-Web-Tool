@@ -47,6 +47,7 @@ async def read_home():
 
 # Add Paths
 app.include_router(path_fish.router)
+app.include_router(path_bug.router)
 
 
 
