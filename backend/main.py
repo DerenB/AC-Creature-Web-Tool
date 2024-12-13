@@ -8,7 +8,8 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 
 # Import Paths
 from paths import (
-    path_fish
+    path_fish,
+    path_bug
 )
 
 
