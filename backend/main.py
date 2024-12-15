@@ -8,6 +8,7 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 
 # Import Paths
 from paths import (
+    path_available,
     path_fish,
     path_bug
 )
@@ -38,14 +39,8 @@ async def custom_http_exception_handler(request: Request, exc: StarletteHTTPExce
 
 
 
-# Home Route
-@app.get("/")
-async def read_home():
-    return {"Location": "Home Page"}
-
-
-
 # Add Paths
+app.include_router(path_available.router)
 app.include_router(path_fish.router)
 app.include_router(path_bug.router)
 
