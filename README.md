@@ -2,7 +2,18 @@
 
 - Using FastAPI &amp; React to display currently available creatures
 
-# Technologies
+# Setup
+
+### Languages
+
+- Python
+- JavaScript
+
+### Development Environments
 
 - PyCharm
 - Postman
+
+### Frameworks
+
+- React
